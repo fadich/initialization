@@ -16,6 +16,8 @@ sudo apt-get install -y guake
 
 # Install Git
 sudo apt install -y git
+git config --global user.email "royalfadich@gmail.com"
+git config --global user.name "Fadi A."
 
 
 # Install Python3.6
