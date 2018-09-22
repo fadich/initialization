@@ -34,9 +34,15 @@ sudo apt-get update
 sudo apt-get install -y google-chrome-stable
 
 
+# Install Unity Tweak Tool
+sudo add-apt-repository ppa:numix/ppa
+sudo apt-get update
+sudo apt-get install numix-gtk-theme numix-icon-theme-circle
+sudo apt-get install unity-tweak-tool
+
+
 # Customize Keys
 gsettings set org.gnome.desktop.wm.preferences mouse-button-modifier "<Super>"
-
 
 
 # Done.
