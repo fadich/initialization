@@ -23,7 +23,7 @@ git config --global user.name "Fadi A."
 # Install Python3.6
 sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt-get update
-sudo apt-get install -y python3-dev python-dev python3.6
+sudo apt-get install -y python3-dev python-dev libpython3.6-dev python3.6
 python3 -V
 
 
