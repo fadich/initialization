@@ -5,7 +5,7 @@ sudo apt-get update
 
 # Install NVidia Drivers
 sudo apt-get purge nvidia*
-sudo add-apt-repository ppa:graphics-drivers
+sudo add-apt-repository -y ppa:graphics-drivers
 sudo apt-get update
 sudo apt-get install -y nvidia-384
 
@@ -21,7 +21,7 @@ git config --global user.name "Fadi A."
 
 
 # Install Python3.6
-sudo add-apt-repository ppa:deadsnakes/ppa
+sudo add-apt-repository -y ppa:deadsnakes/ppa
 sudo apt-get update
 sudo apt-get install -y python3-dev python-dev libpython3.6-dev python3-pip virtualenv python3.6 python3.6-*
 python3 -V
@@ -35,10 +35,10 @@ sudo apt-get install -y google-chrome-stable
 
 
 # Install Unity Tweak Tool
-sudo add-apt-repository ppa:numix/ppa
+sudo add-apt-repository -y ppa:numix/ppa
 sudo apt-get update
-sudo apt-get install numix-gtk-theme numix-icon-theme-circle
-sudo apt-get install unity-tweak-tool
+sudo apt-get install -y numix-gtk-theme numix-icon-theme-circle
+sudo apt-get install -y unity-tweak-tool
 
 
 # Customize Keys
